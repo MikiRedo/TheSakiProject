@@ -8,9 +8,15 @@ function parseIpfsUri(uri: string, providerPrefix: string = "https://ipfs.io/ipf
 }
 
 async function main() {
-  const ipfsUri = "ipfs://QmTAWALm2KrF6egnZge59TWZEv6NCQjNzJXTDBXFMSQCkS";
-  const url = parseIpfsUri(ipfsUri);
-  console.log("IPFS URL:", url);
+
+  const ipfsUriImage = "";
+  const urlImage = parseIpfsUri(ipfsUriImage);
+
+  const ipfsUriMeta = "ipfs://QmeFbLGuikzfyo3ptjG3E2aHY6XDeLxrXNK1Fe83h3i7G2";
+  const urlMeta = parseIpfsUri(ipfsUriMeta);
+
+  console.log("IPFS URL:", urlImage);
+  console.log("IPFS URL:", urlMeta);
 }
 
 main();

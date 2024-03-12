@@ -15,10 +15,10 @@ async function pinNftMetadataToIpfs(mediaPath: string, metadata: {}) {
 }
 
 async function main() {
-  const mediaPath = "assets/keepcoding.png";
+  const mediaPath = "assets/kittyCat.jpg";
   const metadata = {
-    name: "Keepcoding NFT",
-    description: "NFT minted in Keepcoding",
+    name: "Tales From The Alchemist NFT",
+    description: "NFT minted in on testnet",
     attributes: [
       {
         trait_type: "Rarity",
