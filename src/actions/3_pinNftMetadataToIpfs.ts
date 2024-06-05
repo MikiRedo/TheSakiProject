@@ -18,7 +18,7 @@ async function main() {
   const mediaPath = "assets/kittyCat.jpg";
   const metadata = {
     name: "Tales From The Alchemist NFT",
-    description: "NFT minted in on testnet",
+    description: "NFT minted on testnet",
     attributes: [
       {
         trait_type: "Rarity",
